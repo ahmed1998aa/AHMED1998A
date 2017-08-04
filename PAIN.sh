@@ -60,6 +60,3 @@ echo -e "        \e[38;5;40m"
 curl "https://api.telegram.org/bot"$token"/sendmessage" -F
 ./tg -s ./PAIN.lua $@ --bot=$token
 
-
-
- Desktop version
