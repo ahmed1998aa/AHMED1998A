@@ -8,6 +8,3 @@ sudo_users = {
 
 
 }
-
-Desktop version
-
