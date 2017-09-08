@@ -32,7 +32,7 @@ echo -e
  fi
 if [ ! $token ]; then
 echo -e ""
-echo -e 
+echo -e4
 echo -e 
 echo -e 
 echo -e 
@@ -60,3 +60,4 @@ echo -e
 curl "https://api.telegram.org/bot"$token"/sendmessage" -F
 ./tg -s ./PAIN.lua $@ --bot=$token
 
+end
